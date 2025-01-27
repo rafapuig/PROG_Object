@@ -1,4 +1,4 @@
-package inmutability;
+package immutability;
 
 public class IntWrapper {
 

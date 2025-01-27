@@ -1,4 +1,4 @@
-package inmutability;
+package immutability;
 
 /**
  * Esta clase es internamente mutable (su estado interno puede cambiar después de la creación del objeto)
