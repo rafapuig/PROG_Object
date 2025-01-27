@@ -1,6 +1,5 @@
 package immutability.withers;
 
-import java.security.cert.PolicyNode;
 import java.util.StringJoiner;
 
 class Point {
@@ -25,10 +24,20 @@ class Point {
         return y;
     }
 
+    /**
+     * Método wither crea una copia del Point con el nuevo valor proporcionado para la x
+     * @param x nuevo valor para la x de la copia del punto
+     * @return una copia modificada del objeto punto con la nueva coordenada x
+     */
     public Point withX(int x) {
         return new Point(x, y);
     }
 
+    /**
+     * Método wither crea una copia del Point con el nuevo valor proporcionado para la y
+     * @param y nuevo valor para la x de la copia del punto
+     * @return una copia modificada del objeto punto con la nueva coordenada y
+     */
     public Point withY(int y) {
         return new Point(x, y);
     }
